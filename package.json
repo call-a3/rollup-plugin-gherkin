@@ -35,6 +35,11 @@
   "peerDependencies": {
     "rollup": "0.66.2"
   },
+  "greenkeeper": {
+    "ignore": [
+      "gherkin"
+    ]
+  },
   "dependencies": {
     "gherkin": "^5.1.0",
     "rollup-pluginutils": "^2.3.3",

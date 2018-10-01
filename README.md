@@ -1,5 +1,6 @@
 # rollup-plugin-gherkin
 
+[![NPM](https://img.shields.io/npm/v/rollup-plugin-gherkin.svg)](https://www.npmjs.com/package/rollup-plugin-gherkin)
 [![Travis](https://img.shields.io/travis/call-a3/rollup-plugin-gherkin.svg)](https://travis-ci.org/call-a3/rollup-plugin-gherkin)
 [![Codecov](https://img.shields.io/codecov/c/github/call-a3/rollup-plugin-gherkin.svg)](https://codecov.io/gh/call-a3/rollup-plugin-gherkin)
 [![Greenkeeper badge](https://badges.greenkeeper.io/call-a3/rollup-plugin-gherkin.svg)](https://greenkeeper.io/)
