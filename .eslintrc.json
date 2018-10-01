@@ -1,0 +1,216 @@
+{
+  "root": true,
+  "extends": "prettier",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "plugins": ["better", "require-in-package", "prettier"],
+  "rules": {
+    "prettier/prettier": 2,
+    "no-alert": 2,
+    "no-assert": 0,
+    "no-console": 2,
+    "no-debugger": 1,
+    "require-in-package/require-in-package": 2,
+    "better/no-fors": 2,
+    "better/no-whiles": 2,
+    "better/no-switches": 2,
+    "better/no-typeofs": 2,
+    "better/no-instanceofs": 2,
+    "better/no-nulls": 2,
+    "better/no-deletes": 1,
+    "better/no-exceptions": 0,
+    "prefer-template": 2,
+    "no-var": 2,
+    "prefer-const": [
+      2,
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "arrow-body-style": [2, "as-needed"],
+    "arrow-parens": [2, "as-needed"],
+    "prefer-destructuring": 2,
+    "prefer-rest-params": 2,
+    "prefer-spread": 2,
+    "prefer-arrow-callback": [
+      2,
+      {
+        "allowNamedFunctions": true
+      }
+    ],
+    "no-cond-assign": 2,
+    "no-constant-condition": 2,
+    "no-dupe-args": 2,
+    "no-dupe-keys": 2,
+    "no-duplicate-case": 2,
+    "no-dupe-class-members": 2,
+    "no-empty": 2,
+    "no-empty-pattern": 2,
+    "no-inner-declarations": 2,
+    "no-irregular-whitespace": 2,
+    "no-obj-calls": 2,
+    "no-return-assign": 2,
+    "no-return-await": 2,
+    "no-sparse-arrays": 2,
+    "no-unreachable": 2,
+    "no-unsafe-finally": 2,
+    "no-unsafe-negation": 2,
+    "use-isnan": 2,
+    "valid-typeof": 2,
+    "array-callback-return": 2,
+    "no-global-assign": 2,
+    "no-octal": 2,
+    "no-octal-escape": 2,
+    "no-self-assign": 2,
+    "no-self-compare": 2,
+    "no-unmodified-loop-condition": 2,
+    "no-unused-expressions": 2,
+    "wrap-iife": [2, "inside"],
+    "no-bitwise": 1,
+    "constructor-super": 2,
+    "no-this-before-super": 2,
+    "no-class-assign": 2,
+    "require-yield": 2,
+    "no-ex-assign": 2,
+    "no-func-assign": 2,
+    "no-param-reassign": 2,
+    "no-extra-boolean-cast": 2,
+    "no-undef-init": 2,
+    "no-else-return": 2,
+    "no-extra-bind": 2,
+    "no-useless-call": 2,
+    "no-useless-concat": 2,
+    "no-useless-escape": 2,
+    "no-useless-return": 2,
+    "no-useless-rename": 2,
+    "no-useless-computed-key": 2,
+    "no-useless-constructor": 2,
+    "no-control-regex": 2,
+    "no-invalid-regexp": 2,
+    "no-empty-character-class": 2,
+    "no-regex-spaces": 2,
+    "no-div-regex": 2,
+    "no-use-before-define": 1,
+    "no-template-curly-in-string": 1,
+    "no-undef": 2,
+    "no-shadow": 2,
+    "no-shadow-restricted-names": 2,
+    "no-unused-vars": [
+      2,
+      {
+        "vars": "local",
+        "args": "after-used",
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ],
+    "no-loop-func": 2,
+    "no-redeclare": 2,
+    "no-catch-shadow": 2,
+    "radix": 2,
+    "require-await": 2,
+    "no-const-assign": 2,
+    "consistent-return": 2,
+    "no-empty-function": 2,
+    "no-implicit-coercion": 2,
+    "no-caller": 2,
+    "no-eval": 2,
+    "no-implied-eval": 2,
+    "no-new-func": 2,
+    "no-script-url": 2,
+    "no-extend-native": 2,
+    "no-labels": 2,
+    "no-new": 2,
+    "no-proto": 2,
+    "no-sequences": 2,
+    "no-throw-literal": 2,
+    "no-void": 2,
+    "no-with": 2,
+    "prefer-promise-reject-errors": 2,
+    "no-floating-decimal": 2,
+    "no-lone-blocks": 2,
+    "yoda": [
+      2,
+      "never",
+      {
+        "exceptRange": true
+      }
+    ],
+    "strict": 2,
+    "no-array-constructor": 2,
+    "class-methods-use-this": [
+      2,
+      {
+        "exceptMethods": ["render"]
+      }
+    ],
+    "no-invalid-this": 1,
+    "complexity": 1,
+    "max-depth": 2,
+    "max-nested-callbacks": [
+      2,
+      {
+        "max": 3
+      }
+    ],
+    "max-params": [
+      1,
+      {
+        "max": 5
+      }
+    ],
+    "max-statements": [
+      1,
+      {
+        "max": 30
+      }
+    ],
+    "no-restricted-properties": [
+      1,
+      {
+        "object": "_",
+        "property": "extend",
+        "message": "use Object.assign instead of _.extend"
+      }
+    ],
+    "no-restricted-globals": [1, "event", "length", "name", "open"],
+    "global-require": 2,
+    "no-mixed-requires": 2,
+    "no-new-require": 2,
+    "handle-callback-err": 2,
+    "no-path-concat": 2,
+    "no-process-exit": 1,
+    "no-underscore-dangle": 0,
+    "func-name-matching": 2,
+    "func-names": [2, "as-needed"],
+    "new-cap": 2,
+    "new-parens": 2,
+    "consistent-this": [2, "self"],
+    "func-style": [
+      2,
+      "declaration",
+      {
+        "allowArrowFunctions": true
+      }
+    ],
+    "no-continue": 2,
+    "no-lonely-if": 2,
+    "no-multi-assign": 2,
+    "no-new-object": 2,
+    "no-new-symbol": 2,
+    "no-duplicate-imports": 2,
+    "symbol-description": 2
+  }
+}
