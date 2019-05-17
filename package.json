@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "gherkin": "^5.1.0",
-    "rollup-pluginutils": "^2.3.3",
+    "rollup-pluginutils": "^2.7.1",
     "source-map": "^0.7.3"
   },
   "devDependencies": {
