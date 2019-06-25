@@ -58,7 +58,7 @@
     "babel-jest": "^23.6.0",
     "codecov": "^3.1.0",
     "eslint": "^5.6.1",
-    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-prettier": "^5.1.0",
     "eslint-plugin-better": "^0.1.5",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-require-in-package": "^1.0.3",
